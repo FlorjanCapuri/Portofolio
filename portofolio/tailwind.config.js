@@ -18,6 +18,9 @@ module.exports = {
         gray: "#b7b7a4",
         background: "#1A1A1D",
       },
+      fontFamily: {
+        main: ["Sigmar", "cursive"],
+      },
     },
   },
   plugins: [],

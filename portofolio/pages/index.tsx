@@ -11,8 +11,8 @@ export default function Home() {
     <div className="bg-background text-white h-full">
       <Head>
         <title>Florjan`s Portofolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       </Head>
-
       <Main />
       <About />
       <Experience />
