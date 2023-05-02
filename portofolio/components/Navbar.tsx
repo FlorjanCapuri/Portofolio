@@ -10,7 +10,7 @@ const navLinks2 = [{ id: "Contact", title: "Contact" }];
 
 const Navbar = () => {
   return (
-    <div className="bg-background text-white py-[28px] px-[20%] flex justify-between items-center gap-[32px] fixed top-0 left-0 right-0">
+    <div className="bg-background text-white py-[28px] px-[20%] flex justify-between items-center gap-[32px] fixed top-0 left-0 right-0 z-50">
       <ul className="flex items-center justify-center gap-10">
         {navLinks1.map((link) => (
           <li>
